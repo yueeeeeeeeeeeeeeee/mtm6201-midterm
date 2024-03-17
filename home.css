@@ -131,7 +131,7 @@ button {
 
 .strike {
   color: gray;
-  margin-left: 250px;
+  margin-left: 200px;
   position: relative;
   font-size: 20px;
 }
@@ -147,8 +147,7 @@ button {
 
 .total h3 {
   color: #007bff;
-  margin-right: 20px;
-  margin-left: 10px;
+  margin-right: 50px;
   font-size: 25px;
   font-weight: 700;
 }

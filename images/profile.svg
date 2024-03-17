@@ -1,0 +1,7 @@
+<svg id="person-outline" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <rect id="Rectangle" width="16" height="16" opacity="0"/>
+  <g id="Shape_2" data-name="Shape 2" transform="translate(5 2)">
+    <path id="Shape" d="M2.667,5.333A2.667,2.667,0,1,0,0,2.667,2.667,2.667,0,0,0,2.667,5.333Z" transform="translate(0.333 0)" fill="#27282b"/>
+  </g>
+  <path id="Path" d="M0,4.667a.667.667,0,0,0,.667.667h8a.667.667,0,0,0,.667-.667A4.667,4.667,0,0,0,0,4.667Z" transform="translate(3.333 8.667)" fill="#27282b"/>
+</svg>

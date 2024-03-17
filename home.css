@@ -1,0 +1,279 @@
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: white;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.oval {
+  text-align: right;
+  /* Centering the content by default */
+}
+
+.header {
+  text-align: left;
+}
+
+.header h2 {
+  font-size: 35px;
+  font-weight: 100;
+  margin-bottom: 1px;
+}
+
+.header p {
+  font-weight: 100;
+}
+
+
+.button {
+  color: white;
+  padding: 16px 48px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 8px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.btn {
+  display: flex;
+  justify-content: flex-start;
+}
+
+button {
+  border: none;
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+  float: left;
+}
+
+.button1 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.button1:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.button2 {
+  background-color: white;
+  color: black;
+}
+
+.button2 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.button2:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.grey-line {
+  border: none;
+  border-top: 2px solid rgb(214, 212, 212);
+  width: 100%;
+}
+
+.main p {
+  font-weight: 100;
+  margin-left: 30px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.hands {
+  text-align: left;
+  /* Centering the content by default */
+  margin-left: 30px;
+}
+
+.main h2 {
+  margin-left: 30px;
+}
+
+.line {
+  border: none;
+  background: linear-gradient(to right, rgb(86, 114, 208) 50%, rgb(185, 185, 185) 50%);
+  width: 70%;
+  height: 2px;
+  margin-left: 30px;
+  position: absolute;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.total p {
+  font-weight: 100;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+.strike {
+  color: gray;
+  margin-left: 250px;
+  position: relative;
+  font-size: 20px;
+}
+
+.strike::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 50%;
+  width: 100%;
+  border-bottom: 1px solid gray;
+}
+
+.total h3 {
+  color: #007bff;
+  margin-right: 20px;
+  margin-left: 10px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.people {
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
+.main1 h2 {
+  margin-left: 30px;
+}
+
+.navbar {
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  margin-top: 50px;
+}
+
+nav a {
+  background-color: rgb(236, 236, 236);
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.image-text {
+  margin-right: 20px;
+}
+
+.image-text img {
+  width: 30px;
+  height: 30px;
+}
+
+.image-text {
+  color: black;
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  .oval {
+    text-align: center;
+    /* Align to the right for mobile size */
+  }
+
+  .header {
+    text-align: center;
+  }
+
+  .btn {
+    justify-content: center;
+  }
+
+  .button {
+    margin: 30px;
+  }
+
+  .main p {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  .main h2 {
+    text-align: center;
+    margin-right: 350px;
+  }
+
+  .hands {
+    text-align: center;
+    /* Align to the right for mobile size */
+    margin-left: 30px;
+    margin-bottom: 30px;
+  }
+
+  .line {
+    left: 15%;
+    right: 15%;
+    width: 60%;
+    margin-left: 80px;
+    margin-top: 30px;
+  }
+
+  .total {
+    justify-content: flex-end;
+  }
+
+  .total p {
+    margin-left: auto;
+    margin-right: 100px;
+    margin-top: 30px;
+  }
+
+  .strike {
+    margin-left: auto;
+    margin-right: 20px;
+  }
+
+  .total h3 {
+    margin-right: 200px;
+  }
+
+  .main1 h2 {
+    text-align: center;
+    margin-right: 350px;
+  }
+
+  .people {
+    text-align: center;
+    /* Align to the right for mobile size */
+    margin-left: 30px;
+    margin-bottom: 30px;
+  }
+
+  .nav a {
+    width: 100%;
+  }
+}
